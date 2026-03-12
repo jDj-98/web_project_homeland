@@ -1,0 +1,15 @@
+.header {
+  width: 100%;
+}
+
+.header__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.header__logo {
+  width: 35%;
+  margin: 0 auto;
+}
+

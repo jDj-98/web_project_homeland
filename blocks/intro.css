@@ -33,7 +33,11 @@
   margin: 40px auto;
 }
 
-.intro__description--author {
+.intro__author-container {
+  margin: 10px 0;
+}
+
+.author {
   font-family: Inter;
   font-weight: 400;
   font-size: 24px;
@@ -56,10 +60,10 @@
 }
 
 @media screen and (max-width: 768px) {
-.intro__container {
+  .intro__container {
     width: 100%;
   }
-.intro__title {
+  .intro__title {
     font-size: 36px;
     line-height: 1.5;
   }
@@ -67,7 +71,7 @@
     font-size: 20px;
     line-height: 1.5;
   }
-  .intro__description--author{
+  .author {
     font-size: 20px;
     line-height: 1.5;
     margin: auto;
@@ -79,7 +83,7 @@
 }
 
 @media screen and (max-width: 544px) {
-.intro__title {
+  .intro__title {
     font-size: 36px;
     line-height: 1;
   }
@@ -87,7 +91,7 @@
     font-size: 20px;
     line-height: 1.5;
   }
-  .intro__description--author{
+  .author {
     font-size: 20px;
     line-height: 0.5;
   }

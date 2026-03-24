@@ -46,6 +46,7 @@
   text-align: center;
   max-width: 720px;
   max-height: 20vh;
+  margin: 0 auto 20px;
 }
 
 .lead__image {
@@ -56,6 +57,9 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .lead__container {
+    width: 95%;
+  }
   .lead__text {
     width: 80%;
   }

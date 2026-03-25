@@ -1,4 +1,4 @@
-.photogrid__container {
+.photogrid {
   max-width: 95%;
   /* max-height: 442px; */
   margin: 0 20px 92px;
@@ -23,7 +23,7 @@
 }
 
 @media screen and (max-width: 544px) {
-  .photogrid__container{
+  .photogrid__container {
     grid-template-columns: auto;
     grid-template-rows: repeat(8, 1fr);
   }
